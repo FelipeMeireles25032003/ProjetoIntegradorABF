@@ -1,0 +1,44 @@
+﻿<form>
+    <h4>Preencha os campos abaixo para realizar o cadastro do evento.</h4>
+    <style>
+        span {
+            color: red;
+        }
+        #data {
+            margin-right: 40px;
+        }
+    </style>
+    <div>
+        <label for="nomeEvento" class="form-label">Nome do Evento</label>
+        <span class="d-inline-block ">*</span>
+        <input class="d-block" type="text" value="">
+    </div>
+    <div class="d-flex">
+        <div id="data">
+            <label for="dataEvento" class="form-label">Data do Evento</label>
+            <span class="d-inline-block ">*</span>
+            <input class="d-block" type="date" value="">
+        </div>
+        <div>
+            <label for="numeroParticipantes" class="form-label">Número de Participantes</label>
+            <span class="d-inline-block ">*</span>
+            <input class="d-block" type="number" value="">
+        </div>
+    </div>
+    <div class="d-flex">
+        <div class="d-inline">
+            <label for="horarioInicio" class="form-label">Horário de início</label>
+            <span class="d-inline-block ">*</span>
+            <input class="d-block" type="time" value="">
+        </div>
+        <div>
+            <label for="horarioTermino" class="form-label">Horário de Término</label>
+            <span class="d-inline-block ">*</span>
+            <input class="d-block" type="time" value="">
+        </div>
+    </div>
+    <div>
+        <label for="descricao" class="form-label">Descrição</label>
+        <textarea class="d-block"></textarea>
+    </div>
+</form>
